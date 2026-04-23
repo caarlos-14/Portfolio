@@ -1,0 +1,130 @@
+.card{
+    position:absolute;
+    color:aliceblue;
+    top:50%;
+    width:20%;
+    right:5%;
+    transform:rotate(5deg);
+    background-color:var(--colorCard);
+    padding:1.2em;
+    border-radius:20px;
+    box-shadow:2px 2px 4px var(--colorTextoBlanco);
+    z-index:1;
+    cursor:pointer;
+}
+
+.card.active{
+    z-index:1;
+    transform:scale(1.2);
+}
+.titulo_card h4{
+    font-weight:bold;
+    text-transform:uppercase;
+}
+.titulo_card p{
+    font-size:0.8em;
+}
+
+.contenido_fotos {
+display:flex;
+justify-content:space-evenly;
+}
+
+#html{
+    color:#E34F26;
+    width:32px;
+    height:32px;  
+}
+#css{
+    color:#1572B6;
+    width:32px;
+    height:32px;  
+}
+#js{
+    color:#F7DF1E;
+    width:32px;
+    height:32px;  
+}
+#git{
+    color:#181717;
+    width:32px;
+    height:32px;  
+}
+#next{
+    color:#000000;
+    width:32px;
+    height:32px;  
+}
+
+@media (max-width:1000px){
+  .card{
+    width:20%;
+}  
+
+.titulo_card h4{
+    font-weight:bold;
+    text-transform:uppercase;
+    font-size:1em;
+
+}
+.titulo_card p{
+    font-size:0.8em;
+}
+}
+
+@media (max-width:890px){
+  .card{
+    width:25%;
+}  
+
+.titulo_card h4{
+    font-weight:bold;
+    text-transform:uppercase;
+    font-size:1.3em;
+
+}
+.titulo_card p{
+    font-size:0.7em;
+}
+}
+
+@media (max-width:678px){  
+.titulo_card h4{
+    font-weight:bold;
+    text-transform:uppercase;
+    font-size:1.1em;
+
+}
+.titulo_card p{
+    font-size:0.6em;
+}
+}
+
+
+@media (max-width:550px){
+  .card{
+    width:40%;
+    top:50%;
+    right:2%;
+}  
+ .card.active {
+    z-index: 10;
+    width:40%;
+    text-align:center;
+    right:28%;          /* se ve encima */
+    transform: scale(1.5) rotate(0deg); /* aumenta al hacer clic */
+  }
+
+
+.titulo_card h4{
+    font-weight:bold;
+    text-transform:uppercase;
+    font-size:0.7em;
+    text-align:center;
+
+}
+.titulo_card p{
+    font-size:0.45em;
+    text-align:right;
+}
+}

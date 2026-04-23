@@ -1,0 +1,91 @@
+.container {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  text-align: center;
+  margin-bottom:4em;
+}
+
+.nombre{
+  font-size:2.8em;
+  font-weight:bold;
+  color:white;
+}
+
+.trabajo{
+  font-size:3em;
+  color:white;
+  letter-spacing:2px;
+}
+
+.minombre{
+  color:var(--colorSecond);
+}
+
+.btn_project{
+  text-decoration:none;
+  color:black;
+  background:var(--colorSecond);
+  padding:0.5em 1em;
+  border-radius:20px;
+  font-weight:bold;
+  border:2px solid var(--colorTextoNegro);
+}
+
+.btn_container{
+  position:absolute;
+  bottom:6%;
+  left:30%;
+  display:flex;
+  align-items:center;
+}
+
+.imagen_carlos{
+  position:relative;
+  z-index:2;
+}
+.imagen_carlos img {
+  filter: drop-shadow(2px 0px 0.4px var(--colorTextoBlanco)) ;
+  mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+}
+
+
+@media (max-width:576px){
+.imagen_carlos img{
+  width:70%;
+  pointer-events: none;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+   min-height: 60vh;
+}
+
+.nombre{
+  font-size:2em;
+  font-weight:bold;
+  color:white;
+  margin-top:0.8em;
+}
+
+.trabajo{
+  font-size:1.8em;
+  color:white;
+  letter-spacing:2px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+   min-height: 60vh;
+  }
+
+  .imagen_carlos img{
+  width:100%;
+  }
+}

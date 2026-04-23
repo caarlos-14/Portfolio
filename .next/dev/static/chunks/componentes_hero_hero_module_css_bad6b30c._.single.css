@@ -1,0 +1,96 @@
+/* [project]/componentes/hero/hero.module.css [app-client] (css) */
+.hero-module__HG0Fca__container {
+  text-align: center;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  min-height: 80vh;
+  margin-bottom: 4em;
+  display: flex;
+}
+
+.hero-module__HG0Fca__nombre {
+  color: #fff;
+  font-size: 2.8em;
+  font-weight: bold;
+}
+
+.hero-module__HG0Fca__trabajo {
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 3em;
+}
+
+.hero-module__HG0Fca__minombre {
+  color: var(--colorSecond);
+}
+
+.hero-module__HG0Fca__btn_project {
+  color: #000;
+  background: var(--colorSecond);
+  border: 2px solid var(--colorTextoNegro);
+  border-radius: 20px;
+  padding: .5em 1em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.hero-module__HG0Fca__btn_container {
+  align-items: center;
+  display: flex;
+  position: absolute;
+  bottom: 6%;
+  left: 30%;
+}
+
+.hero-module__HG0Fca__imagen_carlos {
+  z-index: 2;
+  position: relative;
+}
+
+.hero-module__HG0Fca__imagen_carlos img {
+  filter: drop-shadow(2px 0px .4px var(--colorTextoBlanco));
+  -webkit-mask-image: linear-gradient(#000 80%, #0000 100%);
+  mask-image: linear-gradient(#000 80%, #0000 100%);
+}
+
+@media (max-width: 576px) {
+  .hero-module__HG0Fca__imagen_carlos img {
+    pointer-events: none;
+    width: 70%;
+  }
+
+  .hero-module__HG0Fca__container {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    display: flex;
+  }
+
+  .hero-module__HG0Fca__nombre {
+    color: #fff;
+    margin-top: .8em;
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+  .hero-module__HG0Fca__trabajo {
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 1.8em;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .hero-module__HG0Fca__container {
+    min-height: 60vh;
+  }
+
+  .hero-module__HG0Fca__imagen_carlos img {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=componentes_hero_hero_module_css_bad6b30c._.single.css.map*/

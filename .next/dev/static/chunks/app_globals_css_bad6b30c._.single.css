@@ -1,0 +1,36 @@
+/* [project]/app/globals.css [app-client] (css) */
+:root {
+  --colorCard: #1e2337;
+  --colorFondo: #0a0f1a;
+  --colorTextoBlanco: #fff;
+  --colorTextoNegro: #000;
+  --colorSecond: #e9fa82;
+  --colorSecondClaro: #f3feb7;
+  --colorInput: #e3e3e3;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: radial-gradient(#0a0f1a 30%);
+  height: 100vh;
+  min-height: 100vh;
+  position: relative;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+}
+
+/*# sourceMappingURL=app_globals_css_bad6b30c._.single.css.map*/

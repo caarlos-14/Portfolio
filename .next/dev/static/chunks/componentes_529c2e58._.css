@@ -1,0 +1,83 @@
+/* [project]/componentes/navbar/navbar.module.css [app-client] (css) */
+.navbar-module__EC4STG__link {
+  color: #f0f8ff;
+  text-decoration: none;
+}
+
+.navbar-module__EC4STG__btn_contacto {
+  box-shadow: 0 0 10px var(--colorTextoBlanco);
+  border-radius: 50px;
+  padding: .5em;
+}
+
+.navbar-module__EC4STG__flecha {
+  color: #fff;
+  background: var(--colorSecond);
+  border-radius: 50%;
+  width: 100%;
+  padding: 10em;
+}
+
+/* [project]/componentes/hero/hero.module.css [app-client] (css) */
+.hero-module__HG0Fca__container {
+  text-align: center;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  min-height: 85vh;
+  display: flex;
+}
+
+.hero-module__HG0Fca__nombre {
+  color: #fff;
+  font-size: 2.8em;
+  font-weight: bold;
+}
+
+.hero-module__HG0Fca__trabajo {
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 3em;
+}
+
+.hero-module__HG0Fca__minombre {
+  color: var(--colorSecond);
+}
+
+.hero-module__HG0Fca__btn_project {
+  color: #000;
+  background: var(--colorSecond);
+  border: 2px solid var(--colorTextoNegro);
+  border-radius: 20px;
+  padding: .5em 1em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.hero-module__HG0Fca__btn_container {
+  align-items: center;
+  display: flex;
+  position: absolute;
+  bottom: 6%;
+  left: 30%;
+}
+
+.hero-module__HG0Fca__imagen_carlos {
+  position: relative;
+}
+
+/* [project]/componentes/card_experience/card_experience.module.css [app-client] (css) */
+.card_experience-module__gKzGXa__card {
+  color: #f0f8ff;
+  background-color: var(--colorCard);
+  width: 20%;
+  box-shadow: -2px 2px 4px var(--colorTextoBlanco);
+  border-radius: 20px;
+  padding: 1.2em;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: rotate(-5deg);
+}
+
+/*# sourceMappingURL=componentes_529c2e58._.css.map*/

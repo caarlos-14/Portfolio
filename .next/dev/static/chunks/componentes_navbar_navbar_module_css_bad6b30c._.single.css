@@ -1,0 +1,70 @@
+/* [project]/componentes/navbar/navbar.module.css [app-client] (css) */
+.navbar-module__EC4STG__link {
+  color: #f0f8ff;
+  padding: 1em;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.navbar-module__EC4STG__bg-body-tertiary {
+  background-color: var(--colorCard) !important;
+}
+
+.navbar-module__EC4STG__btn_contacto {
+  box-shadow: 0 0 2px var(--colorTextoBlanco);
+  border-radius: 50px;
+  padding: .5em .8em;
+}
+
+.navbar-module__EC4STG__btn_contacto i {
+  margin-left: .4em;
+}
+
+.navbar-module__EC4STG__flecha {
+  color: var(--colorTextoNegro);
+  background: var(--colorSecond);
+  aspect-ratio: 1;
+  border-radius: 100%;
+  width: 100%;
+  padding: .3em .5em;
+}
+
+@media (max-width: 820px) {
+  .navbar-module__EC4STG__navegacion {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4em;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-module__EC4STG__logo {
+    width: 50%;
+  }
+
+  .navbar-module__EC4STG__navegacion {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .6em;
+    display: flex;
+  }
+
+  .navbar-module__EC4STG__links {
+    justify-content: center;
+    gap: 1em;
+    width: 100%;
+    display: flex;
+  }
+
+  .navbar-module__EC4STG__link {
+    white-space: nowrap;
+  }
+
+  .navbar-module__EC4STG__btn_contacto {
+    box-shadow: 0 0 2px var(--colorTextoBlanco);
+    border-radius: 50px;
+    padding: .3em;
+  }
+}
+
+/*# sourceMappingURL=componentes_navbar_navbar_module_css_bad6b30c._.single.css.map*/

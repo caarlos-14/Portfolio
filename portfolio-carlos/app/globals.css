@@ -1,0 +1,32 @@
+:root{
+--colorCard:#1E2337;
+--colorFondo:#0a0f1a;
+--colorTextoBlanco:#ffffff;
+--colorTextoNegro:#000000;
+--colorSecond:#E9FA82;
+--colorSecondClaro:#f3feb7;
+--colorInput:#E3E3E3;
+}
+*{
+box-sizing:border-box;
+margin:0;
+padding:0;
+}
+body{
+   background: radial-gradient( #0a0f1a 30%);
+   position:relative;
+   min-height:100vh;
+   height:100vh;
+}
+img{
+  max-width:100%;
+  height:auto;
+}
+
+
+
+@media (max-width:768px){
+  body{
+    padding:10px;
+  }
+}

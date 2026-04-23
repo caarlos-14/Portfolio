@@ -1,0 +1,118 @@
+/* [project]/componentes/skills/skills.module.css [app-client] (css) */
+.skills-module__69HpBa__section_skills {
+  background-color: var(--colorFondo);
+  min-height: 100vh;
+  color: var(--colorTextoBlanco);
+  border-bottom: 1px solid var(--colorTextoBlanco);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em 0;
+  display: flex;
+}
+
+.skills-module__69HpBa__card_image {
+  background-color: var(--colorCard);
+  aspect-ratio: 1;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  display: flex;
+}
+
+#skills-module__69HpBa__html {
+  color: #e34f26;
+  width: 96px;
+  height: 96px;
+}
+
+#skills-module__69HpBa__css {
+  color: #1572b6;
+  width: 96px;
+  height: 96px;
+}
+
+#skills-module__69HpBa__js {
+  color: #f7df1e;
+  width: 96px;
+  height: 96px;
+}
+
+#skills-module__69HpBa__git {
+  color: #181717;
+  width: 96px;
+  height: 96px;
+}
+
+#skills-module__69HpBa__next {
+  color: #fff;
+  width: 96px;
+  height: 96px;
+}
+
+#skills-module__69HpBa__angular {
+  color: #dd0031;
+  width: 96px;
+  height: 96px;
+}
+
+#skills-module__69HpBa__python {
+  color: #3776ab;
+  width: 96px;
+  height: 96px;
+}
+
+#skills-module__69HpBa__bootstrap {
+  color: #7952b3;
+  width: 96px;
+  height: 96px;
+}
+
+.skills-module__69HpBa__skills_layout {
+  align-items: stretch;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 2rem;
+  display: flex;
+}
+
+.skills-module__69HpBa__grid {
+  flex: 2;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  display: grid;
+}
+
+.skills-module__69HpBa__cv_btn {
+  color: #000;
+  background: var(--colorSecond);
+  border: 2px solid var(--colorTextoNegro);
+  border-radius: 20px;
+  padding: .5em 1em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.skills-module__69HpBa__side_panel {
+  background-color: var(--colorCard);
+  border-radius: 8px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .skills-module__69HpBa__skills_layout {
+    flex-direction: column;
+  }
+
+  .skills-module__69HpBa__grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}
+
+/*# sourceMappingURL=componentes_skills_skills_module_css_bad6b30c._.single.css.map*/

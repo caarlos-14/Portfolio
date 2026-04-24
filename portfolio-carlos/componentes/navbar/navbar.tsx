@@ -47,9 +47,9 @@ const Navbar = () => {
                 <Link className={`me-md-5 mb-3 mb-md-0 ${styles.link}`} href="/">
                   <i className="bi bi-person" /> Sobre Mi
                 </Link>
-                <Link className={`me-md-5 mb-3 mb-md-0 ${styles.link}`} href="/Habilidades">
+                {/*<Link className={`me-md-5 mb-3 mb-md-0 ${styles.link}`} href="/Habilidades">
                   <i className="bi bi-code-slash" /> Habilidades
-                </Link>
+                </Link>*/}
                 <Link className={`me-md-5 mb-3 mb-md-0 ${styles.link}`} href="/Proyectos">
                   <i className="bi bi-folder" /> Proyectos
                 </Link>
@@ -85,20 +85,27 @@ const Navbar = () => {
           <Link className={`${styles.link}`} href="/" onClick={closeMenu}>
             <i className="bi bi-person me-2" /> Sobre Mi
           </Link>
-          <Link className={`${styles.link}`} href="/Habilidades" onClick={closeMenu}>
+          {/*<Link className={`${styles.link}`} href="/Habilidades" onClick={closeMenu}>
             <i className="bi bi-code-slash me-2" /> Habilidades
-          </Link>
+          </Link>*/}
           <Link className={`${styles.link}`} href="/Proyectos" onClick={closeMenu}>
             <i className="bi bi-folder me-2" /> Proyectos
           </Link>
 
-          <div className="mt-auto">
+          <div className="mt-2">
             <a className={`${styles.link} ${styles.btn_contacto}`} href="#contacto" onClick={closeMenu}>
               Contactame <i className={`bi bi-arrow-up-right ${styles.flecha}`} />
             </a>
           </div>
+          <div className={`${styles.border}`}></div>
+          <div className="">
+          <p className={`${styles.texto}`}>Todos los derechos reservados</p>
+          <p className={`${styles.texto2}`}>2026</p>
+          </div>
         </div>
       </div>
+
+      
 
       {/* Backdrop Bootstrap */}
       {isOpen && (

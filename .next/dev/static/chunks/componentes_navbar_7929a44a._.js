@@ -3,6 +3,7 @@
 
 __turbopack_context__.v({
   "bg-body-tertiary": "navbar-module__EC4STG__bg-body-tertiary",
+  "border": "navbar-module__EC4STG__border",
   "btn_contacto": "navbar-module__EC4STG__btn_contacto",
   "flecha": "navbar-module__EC4STG__flecha",
   "link": "navbar-module__EC4STG__link",
@@ -10,6 +11,8 @@ __turbopack_context__.v({
   "logo": "navbar-module__EC4STG__logo",
   "navbar-toggler": "navbar-module__EC4STG__navbar-toggler",
   "navegacion": "navbar-module__EC4STG__navegacion",
+  "texto": "navbar-module__EC4STG__texto",
+  "texto2": "navbar-module__EC4STG__texto2",
 });
 }),
 "[project]/componentes/navbar/navbar.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
@@ -105,24 +108,6 @@ const Navbar = ()=>{
                                             }, void 0, true, {
                                                 fileName: "[project]/componentes/navbar/navbar.tsx",
                                                 lineNumber: 47,
-                                                columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0)),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                className: `me-md-5 mb-3 mb-md-0 ${__TURBOPACK__imported__module__$5b$project$5d2f$componentes$2f$navbar$2f$navbar$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].link}`,
-                                                href: "/Habilidades",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
-                                                        className: "bi bi-code-slash"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/componentes/navbar/navbar.tsx",
-                                                        lineNumber: 51,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    " Habilidades"
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/componentes/navbar/navbar.tsx",
-                                                lineNumber: 50,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -255,25 +240,6 @@ const Navbar = ()=>{
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                 className: `${__TURBOPACK__imported__module__$5b$project$5d2f$componentes$2f$navbar$2f$navbar$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].link}`,
-                                href: "/Habilidades",
-                                onClick: closeMenu,
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
-                                        className: "bi bi-code-slash me-2"
-                                    }, void 0, false, {
-                                        fileName: "[project]/componentes/navbar/navbar.tsx",
-                                        lineNumber: 89,
-                                        columnNumber: 13
-                                    }, ("TURBOPACK compile-time value", void 0)),
-                                    " Habilidades"
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/componentes/navbar/navbar.tsx",
-                                lineNumber: 88,
-                                columnNumber: 11
-                            }, ("TURBOPACK compile-time value", void 0)),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                className: `${__TURBOPACK__imported__module__$5b$project$5d2f$componentes$2f$navbar$2f$navbar$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].link}`,
                                 href: "/Proyectos",
                                 onClick: closeMenu,
                                 children: [
@@ -292,7 +258,7 @@ const Navbar = ()=>{
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "mt-auto",
+                                className: "mt-2",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                     className: `${__TURBOPACK__imported__module__$5b$project$5d2f$componentes$2f$navbar$2f$navbar$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].link} ${__TURBOPACK__imported__module__$5b$project$5d2f$componentes$2f$navbar$2f$navbar$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].btn_contacto}`,
                                     href: "#contacto",
@@ -316,6 +282,38 @@ const Navbar = ()=>{
                                 fileName: "[project]/componentes/navbar/navbar.tsx",
                                 lineNumber: 95,
                                 columnNumber: 11
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: `${__TURBOPACK__imported__module__$5b$project$5d2f$componentes$2f$navbar$2f$navbar$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].border}`
+                            }, void 0, false, {
+                                fileName: "[project]/componentes/navbar/navbar.tsx",
+                                lineNumber: 100,
+                                columnNumber: 11
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: `${__TURBOPACK__imported__module__$5b$project$5d2f$componentes$2f$navbar$2f$navbar$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].texto}`,
+                                        children: "Todos los derechos reservados"
+                                    }, void 0, false, {
+                                        fileName: "[project]/componentes/navbar/navbar.tsx",
+                                        lineNumber: 102,
+                                        columnNumber: 11
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: `${__TURBOPACK__imported__module__$5b$project$5d2f$componentes$2f$navbar$2f$navbar$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].texto2}`,
+                                        children: "2026"
+                                    }, void 0, false, {
+                                        fileName: "[project]/componentes/navbar/navbar.tsx",
+                                        lineNumber: 103,
+                                        columnNumber: 11
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/componentes/navbar/navbar.tsx",
+                                lineNumber: 101,
+                                columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
@@ -334,7 +332,7 @@ const Navbar = ()=>{
                 onClick: closeMenu
             }, void 0, false, {
                 fileName: "[project]/componentes/navbar/navbar.tsx",
-                lineNumber: 105,
+                lineNumber: 112,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0))
         ]

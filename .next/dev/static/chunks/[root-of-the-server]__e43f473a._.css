@@ -128,9 +128,39 @@ img {
 /* [project]/componentes/navbar/navbar.module.css [app-client] (css) */
 .navbar-module__EC4STG__link {
   color: var(--colorTextoBlanco);
-  padding: 1em;
+  padding: 1em 0;
   text-decoration: none;
+  transition: color .3s, text-shadow .3s, border-bottom .3s;
   display: inline-block;
+}
+
+.navbar-module__EC4STG__link:hover {
+  color: var(--colorSecond);
+  text-shadow: 0 0px 3px var(--colorSecond);
+  -webkit-text-decoration: underline 2px var(--colorSecond);
+  text-decoration: underline 2px var(--colorSecond);
+  text-underline-offset: 4px;
+}
+
+.navbar-module__EC4STG__border {
+  border-bottom: 2px solid var(--colorTextoBlanco);
+  width: 100%;
+  max-width: 250px;
+  margin: 2em auto;
+}
+
+.navbar-module__EC4STG__texto {
+  color: var(--colorTextoBlanco);
+  text-align: center;
+  margin-top: -2em;
+  font-size: .9em;
+}
+
+.navbar-module__EC4STG__texto2 {
+  color: var(--colorTextoBlanco);
+  text-align: center;
+  margin-top: -1em;
+  font-size: .9em;
 }
 
 .offcanvas-body {

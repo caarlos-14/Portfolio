@@ -53,6 +53,26 @@
   mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
 }
 
+.redes_sociales{
+background:var(--colorCard);
+width: 100%;
+height: 100px;
+border-radius: 0px 0px 20px 20px;
+}
+.redes_sociales a{
+  color:var(--colorTextoBlanco) !important;
+  transition:transform 0.3s ease, opacity 0.3s ease, text-shadow 0.3s ease;
+}
+
+.redes_sociales a:hover{
+  transform: scale(1.2);
+  opacity:0.7;
+  text-shadow: 0 0 5px var(--colorSecond);
+}
+
+.redes_sociales_link{
+  text-decoration:none;
+}
 
 @media (max-width:576px){
 .imagen_carlos img{

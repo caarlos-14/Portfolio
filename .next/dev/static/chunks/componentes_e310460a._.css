@@ -56,6 +56,28 @@
   mask-image: linear-gradient(#000 80%, #0000 100%);
 }
 
+.hero-module__HG0Fca__redes_sociales {
+  background: var(--colorCard);
+  border-radius: 0 0 20px 20px;
+  width: 100%;
+  height: 100px;
+}
+
+.hero-module__HG0Fca__redes_sociales a {
+  transition: transform .3s, opacity .3s, text-shadow .3s;
+  color: var(--colorTextoBlanco) !important;
+}
+
+.hero-module__HG0Fca__redes_sociales a:hover {
+  opacity: .7;
+  text-shadow: 0 0 5px var(--colorSecond);
+  transform: scale(1.2);
+}
+
+.hero-module__HG0Fca__redes_sociales_link {
+  text-decoration: none;
+}
+
 @media (max-width: 576px) {
   .hero-module__HG0Fca__imagen_carlos img {
     pointer-events: none;

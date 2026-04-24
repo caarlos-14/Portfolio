@@ -1,9 +1,9 @@
-
+import Amadeus from '@/componentes/amadeus/amadeus'
 
 const Proyectos = () =>{
 return(
     <>
-    <h1>Esta es la pagina de Proyectos</h1>
+        <Amadeus />
     </>
 )
 }

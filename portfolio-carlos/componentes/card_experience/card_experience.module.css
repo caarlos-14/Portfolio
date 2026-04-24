@@ -12,8 +12,8 @@
     cursor:pointer;
 }
 .card.active{
-    z-index:100;
-    transform:scale(1.2) rotate(-5deg) !important;
+    z-index:1;
+    transform:scale(1.2);
 }
 .titulo_card h4{
     font-weight:bold;
@@ -26,6 +26,11 @@
 @media (max-width:1000px){
   .card{
     width:20%;
+    transform:rotate(-5deg);
+    background-color:var(--colorCard);
+    padding:0.8em;
+    border-radius:20px;
+    box-shadow:-2px 2px 4px var(--colorTextoBlanco);
 }  
 
 .titulo_card h4{
@@ -62,8 +67,8 @@
 
 @media (max-width:678px){ 
 .card{
-left:1%;
-height:25%;
+left:3%;
+height:20%;
 }  
  .card.active {
     z-index: 10;
@@ -110,5 +115,3 @@ height:25%;
     font-size:0.5em;
 }
 }
-
-

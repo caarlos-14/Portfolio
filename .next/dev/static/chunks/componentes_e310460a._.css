@@ -111,8 +111,8 @@
 }
 
 .card_experience-module__gKzGXa__card.card_experience-module__gKzGXa__active {
-  z-index: 100;
-  transform: scale(1.2)rotate(-5deg) !important;
+  z-index: 1;
+  transform: scale(1.2);
 }
 
 .card_experience-module__gKzGXa__titulo_card h4 {
@@ -126,7 +126,12 @@
 
 @media (max-width: 1000px) {
   .card_experience-module__gKzGXa__card {
+    background-color: var(--colorCard);
     width: 20%;
+    box-shadow: -2px 2px 4px var(--colorTextoBlanco);
+    border-radius: 20px;
+    padding: .8em;
+    transform: rotate(-5deg);
   }
 
   .card_experience-module__gKzGXa__titulo_card h4 {
@@ -163,8 +168,8 @@
 
 @media (max-width: 678px) {
   .card_experience-module__gKzGXa__card {
-    height: 25%;
-    left: 1%;
+    height: 20%;
+    left: 3%;
   }
 
   .card_experience-module__gKzGXa__card.card_experience-module__gKzGXa__active {

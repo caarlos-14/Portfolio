@@ -81,7 +81,8 @@
 
 @media (max-width: 890px) {
   .card_skill-module__Zh52Iq__card {
-    width: 25%;
+    width: 35%;
+    right: 2%;
   }
 
   .card_skill-module__Zh52Iq__titulo_card h4 {
@@ -96,6 +97,10 @@
 }
 
 @media (max-width: 678px) {
+  .card_skill-module__Zh52Iq__card {
+    right: 0%;
+  }
+
   .card_skill-module__Zh52Iq__titulo_card h4 {
     text-transform: uppercase;
     font-size: 1.1em;

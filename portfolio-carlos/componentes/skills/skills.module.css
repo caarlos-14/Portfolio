@@ -58,6 +58,10 @@
   font-weight:bold;
   border:2px solid var(--colorTextoNegro);
 }
+.cv_btn:hover{
+background-color:var(--colorSecondClaro);
+color:var(--colorTextoNegro);
+}
 
 .side_panel{
     background-color: var(--colorCard);

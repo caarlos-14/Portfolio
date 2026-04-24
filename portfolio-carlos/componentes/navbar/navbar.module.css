@@ -1,8 +1,18 @@
 .link{
     text-decoration:none;
-    color:aliceblue;
+    color:var(--colorTextoBlanco);
     display:inline-block;
     padding:1em;
+}
+:global(.offcanvas-body){
+    background-color:var(--colorCard) !important;
+    text-align:center;
+}
+:global(.offcanvas-header){
+    background-color:var(--colorCard) !important;
+}
+:global(.offcanvas-title h5){
+    text-align:center;
 }
 .bg-body-tertiary{
     background-color:var(--colorCard) !important;
@@ -14,6 +24,10 @@
 }
 .btn_contacto i{
   margin-left:0.4em;
+}
+
+.navbar-toggler{
+    color:var(--colorTextoBlanco);
 }
 .flecha{
     color:var(--colorTextoNegro);

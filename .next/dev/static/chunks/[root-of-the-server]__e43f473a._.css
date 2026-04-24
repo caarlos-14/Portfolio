@@ -127,10 +127,23 @@ img {
 
 /* [project]/componentes/navbar/navbar.module.css [app-client] (css) */
 .navbar-module__EC4STG__link {
-  color: #f0f8ff;
+  color: var(--colorTextoBlanco);
   padding: 1em;
   text-decoration: none;
   display: inline-block;
+}
+
+.offcanvas-body {
+  text-align: center;
+  background-color: var(--colorCard) !important;
+}
+
+.offcanvas-header {
+  background-color: var(--colorCard) !important;
+}
+
+.offcanvas-title h5 {
+  text-align: center;
 }
 
 .navbar-module__EC4STG__bg-body-tertiary {
@@ -145,6 +158,10 @@ img {
 
 .navbar-module__EC4STG__btn_contacto i {
   margin-left: .4em;
+}
+
+.navbar-module__EC4STG__navbar-toggler {
+  color: var(--colorTextoBlanco);
 }
 
 .navbar-module__EC4STG__flecha {

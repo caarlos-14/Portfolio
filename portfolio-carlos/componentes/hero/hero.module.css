@@ -48,6 +48,8 @@
 }
 .imagen_carlos img {
   filter: drop-shadow(2px 0px 0.4px var(--colorTextoBlanco)) ;
+  min-width: 200px;
+  min-height: 120px;
   mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
 }
 

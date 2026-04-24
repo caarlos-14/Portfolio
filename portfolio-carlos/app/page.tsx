@@ -8,7 +8,8 @@ export default function Home() {
   return (
     <>
     <Hero/>
-  
+    <Experience/>
+    <Skill/>
     <Skills/>
     <Contact/>
     </>

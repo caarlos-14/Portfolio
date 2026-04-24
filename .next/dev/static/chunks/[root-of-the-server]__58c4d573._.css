@@ -93,9 +93,12 @@
 /* [project]/app/globals.css [app-client] (css) */
 :root {
   --colorCard: #1e2337;
+  --colorFondo: #0a0f1a;
   --colorTextoBlanco: #fff;
   --colorTextoNegro: #000;
   --colorSecond: #e9fa82;
+  --colorSecondClaro: #f3feb7;
+  --colorInput: #e3e3e3;
 }
 
 * {
@@ -105,7 +108,8 @@
 }
 
 body {
-  background: radial-gradient(circle at 50% 80%, #2b454a 0%, #0a0f1a 30%);
+  background: radial-gradient(#0a0f1a 30%);
+  height: 100vh;
   min-height: 100vh;
   position: relative;
 }

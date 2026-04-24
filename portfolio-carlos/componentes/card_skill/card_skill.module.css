@@ -74,7 +74,8 @@ justify-content:space-evenly;
 
 @media (max-width:890px){
   .card{
-    width:25%;
+    width:35%;
+    right:2%;
 }  
 
 .titulo_card h4{
@@ -89,6 +90,9 @@ justify-content:space-evenly;
 }
 
 @media (max-width:678px){  
+.card{
+right:0%;
+}
 .titulo_card h4{
     font-weight:bold;
     text-transform:uppercase;

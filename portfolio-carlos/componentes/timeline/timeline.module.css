@@ -1,0 +1,105 @@
+.timeline {
+    max-width: 1200px;
+    margin: 50px auto;
+    position: relative;
+    padding: 20px;
+}
+
+/* Línea vertical central */
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 100px;
+    bottom: 0;
+    width: 2px;
+    background-color: #ffffff;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 48px;
+    color: #ffffff;
+}
+
+.event {
+    width: 45%;
+    margin-bottom: 40px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+
+.left {
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.right {
+    margin-left: auto;
+    justify-content: flex-start;
+}
+
+.eventContent {
+    width: 90%;
+    padding: 30px;
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+.eventContent h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+.eventContent h6 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.eventContent p {
+    margin: 0;
+    line-height: 1.4;
+    text-align: justify;
+}
+
+/* Colores de las tarjetas */
+.orange .eventContent { background-color: #fca33d; }
+.red .eventContent { background-color: #f25454; }
+.green .eventContent { background-color: #38c967; }
+.blue .eventContent { background-color: #4e83f5; }
+
+/* Puntos circulares sobre la línea */
+.event::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid;
+    z-index: 3;
+    background-color: #1a1a1a;
+}
+
+.left::after {
+    right: -50px;
+}
+
+.right::after {
+    left: -50px;
+}
+
+/* Colores de los bordes de los puntos */
+.orange::after { border-color: #fca33d; }
+.red::after { border-color: #f25454; }
+.green::after { border-color: #38c967; }
+.blue::after { border-color: #4e83f5; }

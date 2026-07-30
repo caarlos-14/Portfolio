@@ -1,0 +1,118 @@
+.about {
+    color: #ffffff;
+    padding: 80px 40px;
+    width: 100%;
+}
+
+/* Ampliamos el contenedor general para que respire bien en pantallas grandes */
+.container {
+    max-width: 1400px;
+    width: 100%;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Columna de la foto: Ocupa exactamente el 50% */
+.foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen {
+    object-fit: cover;
+    width: 100%;
+    max-width: 250px; /* Tamaño máximo equilibrado */
+    height: auto;
+}
+
+/* Columna de la información: Ocupa exactamente el otro 50% */
+.info {
+    flex: 1;
+}
+
+.nombre {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    position: relative;
+    color: #ffffff;
+}
+
+/* Efecto de título duplicado de fondo (Watermark) */
+.nombre::before {
+    content: 'About Me';
+    position: absolute;
+    top: -40px;
+    left: 0;
+    font-size: 75px;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.03);
+    z-index: -1;
+    text-transform: uppercase;
+    user-select: none;
+}
+
+.descripcion {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    text-align: justify;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+/* --- LISTA EN 2 COLUMNAS --- */
+.gridInfo {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas simétricas */
+    gap: 16px 24px;
+}
+
+.gridInfo li {
+    font-size: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    padding-bottom: 10px;
+    color: #e0e0e0;
+}
+
+.gridInfo strong {
+    color: #E9FA82; /* Color naranja corporativo */
+    margin-right: 8px;
+    display: inline-block;
+}
+
+.gridInfo a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    word-break: break-all;
+}
+
+.gridInfo a:hover {
+    color: #E9FA82;
+    text-decoration: underline;
+}
+
+/* Responsivo para móviles (vuelve a 1 columna apilada en pantallas pequeñas) */
+@media screen and (max-width: 900px) {
+    .container {
+        flex-direction: column;
+        gap: 40px;
+        padding: 0 10px;
+    }
+    
+    .nombre::before {
+        font-size: 45px;
+        top: -25px;
+    }
+
+    .gridInfo {
+        grid-template-columns: 1fr; /* 1 sola columna en móvil */
+    }
+}

@@ -5,6 +5,7 @@ import Skill from "@/componentes/card_skill/card_skill"
 import Contact from "@/componentes/Contacto/Contacto"
 import Skills from "@/componentes/skills/skills"
 import Timeline from "@/componentes/timeline/timeline"
+import AboutMe from "@/componentes/aboutMe/about"
 export default function Home() {
   return (
     <>
@@ -13,6 +14,7 @@ export default function Home() {
     <Skill/>
     <Skills/>
     <Timeline/>
+    <AboutMe/>
     <Contact/>
     
     </>

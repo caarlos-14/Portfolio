@@ -49,6 +49,8 @@
     padding: 30px;
     border-radius: 8px;
     color: #ffffff;
+    /* Mejora clave para la legibilidad en fondos de color */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .eventContent h3 {
@@ -66,7 +68,8 @@
 
 .eventContent p {
     margin: 0;
-    line-height: 1.4;
+    font-size: 14px;
+    line-height: 1.6;
     text-align: justify;
 }
 
@@ -103,3 +106,43 @@
 .red::after { border-color: #f25454; }
 .green::after { border-color: #38c967; }
 .blue::after { border-color: #4e83f5; }
+
+
+
+@media screen and (max-width: 768px) {
+    /* Mover la línea vertical hacia el lado izquierdo */
+    .timeline::before {
+        left: 20px;
+        transform: none;
+    }
+
+    /* Hacer que las tarjetas ocupen casi todo el ancho */
+    .event {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding-left: 50px; /* Espacio para que no pise la línea y los puntos */
+    }
+
+    /* Resetear las clases left y right para móviles */
+    .left, .right {
+        margin-left: 0;
+        margin-right: 0;
+        justify-content: flex-start;
+    }
+
+    /* Ajustar el ancho del contenido de la tarjeta */
+    .eventContent {
+        width: 100%;
+        padding: 20px;
+    }
+
+    /* Alinear los puntos circulares a la izquierda, sobre la línea */
+    .left::after,
+    .right::after {
+        left: 10px;
+        right: auto;
+    }
+}
